@@ -27,7 +27,10 @@
 #include <memory.h>
 #include <tchar.h>
 #include <stdint.h>
+
+// C++ RunTime Header Files
 #include <utility>
+#include <memory>
 #include <algorithm>
 #include <string>
 #include <list>
@@ -44,6 +47,8 @@
 #include "Types.h"
 #include "DirectXTK/SimpleMath.h"
 
+// Common data structures
+#include "Vertex.h"
 
 #define WINDOW_WIDTH 1280
 #define WINDOW_HEIGHT 720
